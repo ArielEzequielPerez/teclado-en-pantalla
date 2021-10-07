@@ -1,5 +1,5 @@
 # teclado-en-pantalla
- Desarrollar un teclado en pantalla.
+## Desarrollar un teclado en pantalla.
 
 ###### Requerimientos:
  	- Cada línea del teclado debe hacerse en un array.
