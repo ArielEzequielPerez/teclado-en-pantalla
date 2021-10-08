@@ -8,53 +8,56 @@
     <title>Teclado</title>
 </head>
 <body>
-
+    <div>
+        <br>
+    </div>
     <input type="text" class="pantalla" id="pantalla">
     <div>
-        <p>C</p>
+        <br>
     </div>
     <table class="tabla">
         <tr>
-            <td><button>Q</button></td>
-            <td><button>W</button></td>
-            <td><button>E</button></td>
-            <td><button>R</button></td>
-            <td><button>T</button></td>
-            <td><button>Y</button></td>
-            <td><button>U</button></td>
-            <td><button>I</button></td>
-            <td><button>O</button></td>
-            <td><button>P</button></td>
+            <td><button onclick="mostrar(0)">Q</button></td>
+            <td><button onclick="mostrar(1)">W</button></td>
+            <td><button onclick="mostrar(2)">E</button></td>
+            <td><button onclick="mostrar(3)">R</button></td>
+            <td><button onclick="mostrar(4)">T</button></td>
+            <td><button onclick="mostrar(5)">Y</button></td>
+            <td><button onclick="mostrar(6)">U</button></td>
+            <td><button onclick="mostrar(7)">I</button></td>
+            <td><button onclick="mostrar(8)">O</button></td>
+            <td><button onclick="mostrar(9)">P</button></td>
         </tr>
         <tr>
-            <td><button>A</button></td>
-            <td><button>S</button></td>
-            <td><button>D</button></td>
-            <td><button>F</button></td>
-            <td><button>G</button></td>
-            <td><button>H</button></td>
-            <td><button>J</button></td>
-            <td><button>K</button></td>
-            <td><button>L</button></td>
-            <td><button>Ñ</button></td>
+            <td><button onclick="mostrar(10)">A</button></td>
+            <td><button onclick="mostrar(11)">S</button></td>
+            <td><button onclick="mostrar(12)">D</button></td>
+            <td><button onclick="mostrar(13)">F</button></td>
+            <td><button onclick="mostrar(14)">G</button></td>
+            <td><button onclick="mostrar(15)">H</button></td>
+            <td><button onclick="mostrar(16)">J</button></td>
+            <td><button onclick="mostrar(17)">K</button></td>
+            <td><button onclick="mostrar(18)">L</button></td>
+            <td><button onclick="mostrar(19)">Ñ</button></td>
         </tr>
         <tr>
-            <td><button>Z</button></td>
-            <td><button>X</button></td>
-            <td><button>C</button></td>
-            <td><button>V</button></td>
-            <td><button>B</button></td>
-            <td><button>N</button></td>
-            <td><button>M</button></td>
-            <td colspan="3"><button class="borrar">Borrar</button></td>
+            <td><button onclick="mostrar(20)">Z</button></td>
+            <td><button onclick="mostrar(21)">X</button></td>
+            <td><button onclick="mostrar(22)">C</button></td>
+            <td><button onclick="mostrar(23)">V</button></td>
+            <td><button onclick="mostrar(24)">B</button></td>
+            <td><button onclick="mostrar(25)">N</button></td>
+            <td><button onclick="mostrar(26)">M</button></td>
+            <td colspan="3"><button class="borrar" onclick="borrar()">Borrar</button></td>
         </tr>
         <tr>
             <td></td>
             <td></td>
-            <td colspan="5"><button class="barraEspaciadora"n>Espacio</button></td>
+            <td colspan="5"><button class="barraEspaciadora" onclick="agregarEspacio()">Espacio</button></td>
         </tr>
 
         <tr></tr>
-    </table>        
+    </table>
+    <script src="js/main.js" ></script>        
 </body>
 </html>
